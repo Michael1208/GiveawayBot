@@ -2,7 +2,6 @@ import discord
 import os
 import asyncio
 import time as timeModule
-import config
 import random
 from discord.ext import commands
 from datetime import datetime
