@@ -9,6 +9,7 @@ from datetime import datetime
 from pprint import pprint
 
 bot = commands.Bot(command_prefix='!',pm_help=True)
+TOKEN = os.environ['TOKEN']
 
 cmdsettings = {}
 allowedRiggers = config.riggers
@@ -558,4 +559,4 @@ async def on_ready():
 	print('------')
 
 
-bot.run(config.token)
+bot.run(TOKEN)
